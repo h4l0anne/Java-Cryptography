@@ -1,7 +1,8 @@
-
 import java.security.*;
 import java.util.Scanner;
 import javax.crypto.Cipher;
+
+public class JEncrypRSA {
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -13,9 +14,7 @@ import javax.crypto.Cipher;
  *
  * @author Anne
  */
-public class JEncrypRSA {
-            
-            
+                 
     public static void main(String[] args) throws Exception{
         PublicKey publicKey;
         PrivateKey privateKey;
@@ -55,4 +54,5 @@ public class JEncrypRSA {
         System.out.println("Decoded Text: " + decryptedText);
     }
     
-}
+}    
+
